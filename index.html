@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>portafolio web</title>
+</head>
+<body>
+    <h1>Lautaro Pereyra</h1>
+    <p>Me apasionan varios temas, incluidos la <span class="underline">programación</span>, <span class="underline">lectura</span> y los <span class="underline">idiomas</span> . Estoy interesado en cualquier oportunidad laboral que me permita crecer profesional y personalmente. Me considero <span class="underline">proactivo</span> y <span class="underline">responsable</span>.</p>
+<hr> 
+<ul>
+<li> <a href="#exp">Experiencia Profesional</a></li>
+<li> <a href="#hab">Habilidades y conocimientos</a></li>
+<li> <a href="#edu">Educación</a></li>
+<li> <a href="#per">Perfiles sociales</a></li>
+<li> <a href="#conct">Contactar</a></li>
+</ul>
+<h2 class="sub" id="exp">Experiencia Profesional</h2>
+<table>
+    <tr> 
+      <th > Empresa </th> 
+      <th > Cargo </th>
+      <th > Ubicacion </th>
+    </tr>
+    <tr>
+      <td >Librería</td>
+      <td >Atención al público y <br> manejo de stock vía Excel</td>
+      <td >Uruguay</td>
+      </tr>
+    </tr>
+  </table>
+<hr>
+<h2 class="sub" id="hab">Habilidades y conocimientos</h2>
+<ul>
+    <li> <j class="subHC">Desarrollo web: </j> HTML, CSS y en proceso de aprender JavaScript.</li>
+    <li> <j class="subHC">Atención al público:</j> Capacidad para relacionarse adecuadamente con los clientes.</li>
+    <li> <j class="subHC">Excel:</j> Entendimiento y manejo avanzalo de fórmulas.</li>
+    <li><j class="subHC">Inglés:</j> Nivel C1 en el idioma.</li>
+    <li><j class="subHC">Japonés:</j> Manejo básico del lenguaje.</li>
+    </ul>
+<hr>
+<h2 class="sub" id="edu">Educación</h2>
+<table>
+    <tr>
+  <th >Titulo</th>
+  <th >Entidad</th>
+  <th >Promoción</th>
+    </tr>
+    <tr>
+      <td >Egresado en educación secundaria</td>
+      <td >Liceo de Tala</td>
+      <td >2022</td>  
+    </tr>
+      <td >Desarrollo Web</td>
+      <td >Plan Ceibal (Jóvenes a Programar)</td>
+      <td >En proceso</td>
+      </tr>
+        </table>
+<hr>
+<h2 class="sub" id="per">Perfiles sociales</h2>
+<ul>
+<li> <a href="https://github.com/SirPauti">Github</a></li>
+<li> <a href="https://www.instagram.com/sirpauti/">Instagram</a></li>
+<li> <a href="https://www.linkedin.com/in/lautaro-pereyra-868836252/">Linkedin</a></li>
+</ul>
+<hr>
+
+<h3 class="sub" id="conct">Contactar</h3>
+<div class="formulario">
+  <div>
+      <form action="CV" method="post">
+        <ul>
+           <label for="email">Para:</label>
+           <input type="mail" id="email" name="Destinatario" requiered>
+          <br>  
+           <label for="msgtype">Temática:</label>  
+            <select id="msg type" name="opciones">
+            <option value="">--Elige un tema--</option>
+            <option value="op2">Consulta</option>
+            <option value="op3">Propuesta</option>
+            <option value="op4">Reporte</option>
+            <option value="op5">Otro</option>
+            </select>
+          <br>
+           <label for="main">Asunto:</label>
+           <input type="text" id="main" name="Asunto" required>
+          <br> 
+          <label for="msg">Cuerpo:</label>
+          <textarea id="msg" name="Mensaje"></textarea>
+        </ul>
+          <button type="submit">Enviar</button>
+      </form>
+  </div>  
+        <img id="imagen" src="mensaje.png" alt="">
+</div>
+</body>
+</html>
